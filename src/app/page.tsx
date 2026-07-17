@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { personal } from "@/data/personal";
 import { education, experiences, projects, socialLinks } from "@/data/site";
@@ -256,9 +255,6 @@ export default function HomePage() {
                     </span>
                   ))}
                 </div>
-                <Link className="project-card-link" href={`/projects/${project.slug}`}>
-                  Ouvrir le projet
-                </Link>
               </article>
             ))}
           </div>
