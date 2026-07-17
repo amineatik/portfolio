@@ -83,10 +83,9 @@ export default function HomePage() {
         <section className="hero-focus">
           <div className="container hero-grid hero-spotlight">
             <div className="hero-copy">
-              <div className="hero-topline">
-                <p className="eyebrow">Profil personnel</p>
-                <span className="hero-status">Portfolio premium</span>
-              </div>
+            <div className="hero-topline">
+              <p className="eyebrow">Profil personnel</p>
+            </div>
               <h1>Mohamed Amine Atik</h1>
               <p className="lead">
                 Je suis diplômé en Réseaux, Cybersécurité et Intelligence Artificielle. Mon parcours
