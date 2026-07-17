@@ -1,0 +1,8 @@
+.next/
+node_modules/
+.npm-cache/
+.agents/
+cv_extract.txt
+*.log
+dist/
+out/
