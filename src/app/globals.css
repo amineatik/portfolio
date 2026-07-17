@@ -56,10 +56,24 @@ button, input, textarea { font: inherit; }
 
 .brand { font-weight: 800; letter-spacing: 0.18em; }
 .brand-pill {
-  padding: 10px 14px;
+  padding: 8px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: linear-gradient(135deg, rgba(77, 215, 255, 0.15), rgba(138, 125, 255, 0.14));
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+}
+
+.brand-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
 }
 .nav-desktop, .topbar-actions, .cta-row, .tag-row { display: flex; flex-wrap: wrap; gap: 12px; }
 .nav-desktop a { color: var(--muted); }
@@ -829,6 +843,14 @@ button, input, textarea { font: inherit; }
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 14px;
+}
+
+.sidebar-brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
 }
 
 .sidebar-nav, .sidebar-links {

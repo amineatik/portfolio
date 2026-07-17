@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { navItems, socialLinks } from "@/data/site";
 
@@ -14,7 +15,9 @@ export function Sidebar() {
 
       <aside className={`sidebar ${open ? "open" : ""}`}>
         <div className="sidebar-head">
-          <strong>MAA</strong>
+          <span className="sidebar-brand" aria-label="MAA">
+            <Image src="/images/brand/maa-logo.png" alt="Logo MAA" width={34} height={34} />
+          </span>
           <button className="chip" type="button" onClick={() => setOpen(false)}>
             Fermer
           </button>

@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: `${personal.name} | ${personal.title}`,
   description: "Portfolio de Mohamed Amine Atik, cybersécurité, IA, réseaux et développement.",
   metadataBase: new URL("http://localhost:3000"),
+  icons: {
+    icon: "/images/brand/maa-logo.png",
+    apple: "/images/brand/maa-logo.png",
+  },
 };
 
 export default function RootLayout({

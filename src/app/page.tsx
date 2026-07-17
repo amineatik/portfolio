@@ -37,8 +37,15 @@ export default function HomePage() {
     <>
       <header className="topbar topbar-expanded">
         <div className="container topbar-inner">
-          <a className="brand brand-pill" href="#home">
-            MAA
+          <a className="brand brand-pill brand-mark" href="#home" aria-label="Retour à l’accueil">
+            <Image
+              src="/images/brand/maa-logo.png"
+              alt="Logo MAA"
+              width={40}
+              height={40}
+              className="brand-icon"
+              priority
+            />
           </a>
 
           <nav className="nav-desktop nav-shell" aria-label="Navigation principale">
